@@ -1,0 +1,62 @@
+@font-face{
+    font-family: 'fontGame';
+    src: url(./font/All\ Pony.ttf);
+}
+
+.gameOanTuXi {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-image: url(./img/bgGame.png);
+    background-size: 100%;
+    font-family: fontGame;
+}
+.gameplayer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}    
+.iconKBB {
+    border: 5px solid #29bd00;
+    width: 150px;
+    height: 100px;
+    background: white;
+    border-radius: 10px;
+}
+
+.btnIcon{
+    width: 60px;
+    height: 60px;
+}
+
+.btnIcon>img{
+    width: 45px;
+    height: 45px;
+}
+
+.text1{
+    color: white !important;
+}
+
+.speech-bubble {
+	position: relative;
+	background: #29bd00;
+	border-radius: .4em;
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #29bd00;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
